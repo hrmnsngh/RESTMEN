@@ -2,10 +2,10 @@ const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
 //create Ninja Schema & model
-const NinjaSchema = new Schema({
+const Ninja = new Schema({
     name: {
         type: String,
-        required: [ture, 'Name field is required']
+        required: [true, 'Name field is required']
     },
     rank: {
         type: String
